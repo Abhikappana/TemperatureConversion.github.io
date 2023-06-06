@@ -1,13 +1,15 @@
 .container{
-    display: block;
-    margin:10%;
-    padding:40px;
-    background-color: rgb(184, 177, 177);
-    display:block;
-    text-align: center;
-    border: 1px solid;
-    border-radius: 5px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding: 25px;
+  position:fixed; 
+  bottom: 50%;
+  left: 50%;
+  width: 500px;
+  height: 155px;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  background: #b7b7b7;
+  font-size: 20px;
 }
 
 .textbox{
@@ -33,16 +35,16 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #000000;
+    background-color: #434343;
     border: none;
     border-radius: 15px;
     box-shadow: 0 5px #999;
   }
   
-  .button:hover {background-color: #3e8e41}
+  .button:hover {background-color: #000000}
   
   .button:active {
-    background-color: #3e8e41;
+    background-color: #6b9b6d;
     box-shadow: 0 1px #666;
     transform: translateY(4px);
   }
